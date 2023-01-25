@@ -39,11 +39,9 @@ export default function Home() {
                 Samen maken we jouw website of webshop innovatief en duurzaam
                 voor de snel veranderende maatschappij om ons heen.
               </p>
-              <div
-                aria-hidden
-                className="hidden lg:block w-full h-auto text-xl pb-0 -ml-20 sm:-ml-12 lg:-ml-8 justify-center max-w-sm"
-              >
+              <div className="hidden lg:block w-full h-auto text-xl pb-0 -ml-20 sm:-ml-12 lg:-ml-8 justify-center max-w-sm">
                 <a
+                  role="presentation"
                   href="#expertises"
                   className="animate-[bounce_2s_ease-in-out_infinite]"
                 >
