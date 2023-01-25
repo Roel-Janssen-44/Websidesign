@@ -121,6 +121,7 @@ export default function Footer() {
           <p>Copyright © {new Date().getFullYear()} Websidesign</p>
           <div className="flex w-[75px] opacity-60 items-center justify-between">
             <a
+              aria-label="Linkedin pagina"
               href="https://www.linkedin.com/in/roel-janssen-7738441b1/"
               target="_blank"
               rel="noreferrer"
@@ -137,6 +138,7 @@ export default function Footer() {
               </svg>
             </a>
             <a
+              aria-label="Instagram pagina"
               href="https://www.instagram.com/websidesign/"
               target="_blank"
               rel="noreferrer"

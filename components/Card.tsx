@@ -14,9 +14,9 @@ export default function Card({ color, img, label, description }: cardProps) {
       className={`bg-transparent w-64 mx-auto rounded-lg shadow-xl p-4 pb-20 mb-20 sm:pb-2 sm:mb-0 sm:rounded-2xl lg:h-64 xl:w-72 xl:mx-0 xl:px-6 xl:py-6 xl:h-[270px]
                   ${img === "maat" || img === "cms" ? "lg:mt-12" : ""}`}
     >
-      <h4 className={`text-[${color}] text-xl font-bold font-inter mb-2`}>
+      <h3 className={`text-[${color}] text-xl font-bold font-inter mb-2`}>
         {label}
-      </h4>
+      </h3>
       <p className={`text-gray mb-2`}>{description}</p>
       <div
         aria-hidden

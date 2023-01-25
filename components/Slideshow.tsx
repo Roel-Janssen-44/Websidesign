@@ -36,9 +36,9 @@ export default function SlideShow() {
       {/* @ts-ignore */}
       <Slider ref={setSliderRef} {...sliderSettings}>
         <div className="border-2 border-blue shadow bg-white p-6 pb-12 mb-6 rounded-lg relative">
-          <h6 className="text-blue text-xl font-bold font-inter mb-4 text-center">
+          <p className="text-blue text-xl font-bold font-inter mb-4 text-center">
             Angie
-          </h6>
+          </p>
           <p className="text-gray">
             Ik ben zeer tevreden met het proces van het maken van een website.
             Het is een geweldige manier om online aanwezig te zijn en om mensen
@@ -64,9 +64,9 @@ export default function SlideShow() {
           </div>
         </div>
         <div className="border-2 border-blue shadow bg-white p-6 pb-12 mb-6 rounded-lg relative">
-          <h6 className="text-blue text-xl font-bold font-inter mb-4 text-center">
+          <p className="text-blue text-xl font-bold font-inter mb-4 text-center">
             Angie
-          </h6>
+          </p>
           <p className="text-gray">
             Ik ben zeer tevreden met het proces van het maken van een website.
             Het is een geweldige manier om online aanwezig te zijn en om mensen
@@ -94,13 +94,14 @@ export default function SlideShow() {
       </Slider>
       <div className="w-10/12 mx-auto flex flex-row justify-around mt-8">
         <button
+          aria-label="Vorige slide"
           className="group flex border-blue bg-white border-2 relative text-blue p-0 pr-[2px] rounded mt-1.5 ml-1.5 md:absolute md:-left-12 md:top-[40%]"
           // @ts-expect-error
           onClick={sliderRef?.slickPrev}
         >
           <div
             className="px-4 py-3 pb-4 -translate-y-2 -translate-x-2 transition-all bg-white rounded border-2 border-blue scale-[1.2] flex
-                       group-hover:translate-y-0 group-hover:translate-x-0"
+            group-hover:translate-y-0 group-hover:translate-x-0"
           >
             <span className="translate-y-3/4 rotate-180">
               <Chevron />
@@ -108,6 +109,7 @@ export default function SlideShow() {
           </div>
         </button>
         <button
+          aria-label="Volgende slide"
           // @ts-expect-error
           onClick={sliderRef?.slickNext}
           className="group flex border-blue bg-white border-2 relative text-blue p-0 pr-[2px] rounded mt-1.5 ml-1.5 md:absolute md:-right-12 md:top-[40%]"

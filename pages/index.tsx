@@ -57,11 +57,11 @@ export default function Home() {
 
             <div className="lg:w-5/12 xl:w-1/2" role="presentation">
               <Image
+                loading="eager"
                 src="./hero.svg"
                 width={550}
                 height={550}
                 alt="Illustratie van een scherm met een man ernaast"
-                className=""
               />
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function Home() {
                 met jou het project succesvol te voltooien.
               </p>
             </div>
-            <div className="text-[#6C0123] text-[#BB9A63] text-[#086570] text-[#008B3C] text-[#000057] text-[#6C0123] flex flex-col gap-8 sm:flex-row sm:flex-wrap xl:gap-12 xl:px-12 xl:justify-center 2xl:px-24">
+            <div className="text-[#6C0123] text-[#BB9A63] text-[#6B532E] text-[#086570] text-[#008B3C] text-[#000057] text-[#6C0123] flex flex-col gap-8 sm:flex-row sm:flex-wrap xl:gap-12 xl:px-12 xl:justify-center 2xl:px-24">
               <Card
                 color="#6C0123"
                 img="seo"
@@ -137,7 +137,7 @@ export default function Home() {
                 description="Voor een hoge ranking in Google"
               />
               <Card
-                color="#BB9A63"
+                color="#6B532E"
                 img="maat"
                 label="Op maat"
                 description="Elke website die ik maak is op maat gemaakt"
