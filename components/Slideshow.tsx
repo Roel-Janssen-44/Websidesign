@@ -37,13 +37,15 @@ export default function SlideShow() {
       <Slider ref={setSliderRef} {...sliderSettings}>
         <div className="border-2 border-blue shadow bg-white p-6 pb-12 mb-6 rounded-lg relative">
           <p className="text-blue text-xl font-bold font-inter mb-4 text-center">
-            Angie
+            Anja - JewelsDesign
           </p>
           <p className="text-gray">
-            Ik ben zeer tevreden met het proces van het maken van een website.
-            Het is een geweldige manier om online aanwezig te zijn en om mensen
-            te laten weten wat je doet of te bieden wat je aanbiedt. Het proces
-            om een website te maken is redelijk eenvoudig en er zijn.
+            Ik ben zo blij met de website die ik heb laten maken door
+            Websidesign. Het was een prettige ervaring om samen te werken met
+            Roel, en het resultaat was beter dan ik had verwacht. De website is
+            gebruiksvriendelijk, professioneel en precies wat ik wilde. Ik kan
+            Websidesign aan iedereen aanbevelen die op zoek is naar een
+            betrouwbare websitebouwer.
           </p>
           <div className="text-yellow-500 text-3xl px-3 py-3 absolute left-[16.0%] bottom-0 translate-y-1/2 flex flex-row justify-around border-2 border-blue w-8/12 rounded-md bg-white">
             <span>
@@ -65,13 +67,12 @@ export default function SlideShow() {
         </div>
         <div className="border-2 border-blue shadow bg-white p-6 pb-12 mb-6 rounded-lg relative">
           <p className="text-blue text-xl font-bold font-inter mb-4 text-center">
-            Angie
+            gedenk-sieraad.nl
           </p>
           <p className="text-gray">
-            Ik ben zeer tevreden met het proces van het maken van een website.
-            Het is een geweldige manier om online aanwezig te zijn en om mensen
-            te laten weten wat je doet of te bieden wat je aanbiedt. Het proces
-            om een website te maken is redelijk eenvoudig en er zijn.
+            Wij zijn ontzettend tevreden met de webshop. Vanaf het begin was het
+            duidelijk dat er veel aandacht werd besteed aan onze wensen en
+            eisen. De website is snel en mooi vormgegeven.
           </p>
           <div className="text-yellow-500 text-3xl px-3 py-3 absolute left-[16.0%] bottom-0 translate-y-1/2 flex flex-row justify-around border-2 border-blue w-8/12 rounded-md bg-white">
             <span>
