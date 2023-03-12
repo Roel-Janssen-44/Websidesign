@@ -1,7 +1,24 @@
+import React, { useState, useEffect } from "react";
+
 import Navbar from "./Navbar";
 import Footer from "./Footer";
+import IconChevron from "./icons/Chevron";
 
 export default function Layout({ children }: React.PropsWithChildren<{}>) {
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const handleScroll = () => {
+    const position = window.pageYOffset;
+    setScrollPosition(position);
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       <a
@@ -18,6 +35,19 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
       >
         {children}
       </main>
+      <div
+        className={`fixed transition-opacity bg-blue shadow-xl rounded text-white w-12 h-12 bottom-8 right-8 
+        ${scrollPosition > 10 ? "opacity-100" : "opacity-0"}`}
+      >
+        <button
+          onClick={() => window.scrollTo(0, 0)}
+          className="w-full h-full flex justify-center items-center"
+        >
+          <div className="-rotate-90 flex mr-1.5 mb-0.5 items-center">
+            <IconChevron />
+          </div>
+        </button>
+      </div>
       <Footer />
     </>
   );
