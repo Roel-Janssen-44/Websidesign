@@ -11,7 +11,6 @@ export default function App({ Component, pageProps }: AppProps) {
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-602BMHPS6K"
       ></Script>
-      strategy="afterInteractive"
       <Script
         id="google-analytics"
         strategy="afterInteractive"
