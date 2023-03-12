@@ -1,21 +1,32 @@
+import { useRouter } from "next/router";
 import Script from "next/script";
 import { useEffect } from "react";
-import { useRouter } from "next/router";
 
+// **Important** Replace this tracking ID by your Analytics code
+// Or you can put it into the environment file.
 const GA_TRACKING_ID = "G-602BMHPS6K";
+
+// @ts-ignore
+const addPageView = (url) => {
+  // @ts-ignore
+  window.gtag("config", GA_TRACKING_ID, {
+    page_path: url,
+  });
+};
 
 const GoogleAnalytics = () => {
   const router = useRouter();
+
   useEffect(() => {
+    // @ts-ignore
     const handleRouteChange = (url) => {
-      window.gtag("config", GA_TRACKING_ID, { page_path: url });
+      addPageView(url);
     };
     router.events.on("routeChangeComplete", handleRouteChange);
     return () => {
       router.events.off("routeChangeComplete", handleRouteChange);
     };
   }, [router.events]);
-
   return (
     <>
       <Script
@@ -27,13 +38,13 @@ const GoogleAnalytics = () => {
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
           __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', '${GA_TRACKING_ID}', {
-              page_path: window.location.pathname,
-            });
-          `,
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${GA_TRACKING_ID}', {
+        page_path: window.location.pathname,
+      });
+    `,
         }}
       />
     </>

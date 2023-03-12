@@ -1,8 +1,5 @@
 import type { AppProps } from "next/app";
-import { useRouter } from "next/router";
-import { useEffect } from "react";
-import GoogleAnalytics from "./../components/GoogleAnalytics";
-
+import GoogleAnalytics from "../components/GoogleAnalytics";
 import { Analytics } from "@vercel/analytics/react";
 
 import "../styles/tailwind.css";
