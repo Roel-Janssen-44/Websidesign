@@ -7,6 +7,8 @@ import "../styles/tailwind.css";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
+      {console.log("process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID ")}
+      {console.log(process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID)}
       <GoogleAnalytics trackPageViews />
       <Component {...pageProps} />
       <Analytics />
