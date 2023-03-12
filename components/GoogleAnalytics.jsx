@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 
 const GA_TRACKING_ID = "G-602BMHPS6K";
 
-export default () => {
+const GoogleAnalytics = () => {
   const router = useRouter();
   useEffect(() => {
     const handleRouteChange = (url) => {
@@ -39,3 +39,5 @@ export default () => {
     </>
   );
 };
+
+export default GoogleAnalytics;
