@@ -64,7 +64,7 @@ export default function Projecten({ allPostsData }: { allPostsData: any }) {
             </div>
           </div>
         </div>
-        <div className="container relative min-h-screen">
+        <div className="container relative min-h-screen pb-20">
           <ul className="grid grid-cols-3 auto-rows-auto lg:auto-rows-fr lg:grid-row-6 gap-10">
             {sortedItems?.map(
               (

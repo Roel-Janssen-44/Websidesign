@@ -41,7 +41,7 @@ export default function Blog({ postData }: { postData: any }) {
             <h1 className="font-inter font-black text-center mb-6 leading-[55px] text-4xl sm:text-5xl sm:leading-[60px] lg:mb-10 2xl:text-6xl 2xl:leading-[75px]">
               {postData.title}
             </h1>
-            <div className=" relative text-center flex justify-center items-center gap-4">
+            <div className="relative text-center flex justify-center items-center gap-4">
               <div className="inline">
                 <Link
                   className="hover:opacity-70 font-inter font-bold tracking-wider duration-100"
