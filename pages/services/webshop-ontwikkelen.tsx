@@ -60,7 +60,7 @@ export default function Projecten() {
           </div>
         </div>
         <div className="container mt-20">
-          <p className="max-w-2xl mx-auto w-full">
+          <p className="max-w-2xl mx-auto w-full text-gray">
             Als je op zoek bent naar een betrouwbare en professionele partner
             voor het maken van webshops, kijk dan niet verder. Ik ben
             gepassioneerd over wat ik doe en stel altijd de behoeften van mijn
@@ -86,7 +86,7 @@ export default function Projecten() {
           <h3 className="max-w-2xl mx-auto w-full text-blue text-2xl font-bold font-inter mb-4">
             Wat lever jij
           </h3>
-          <p>
+          <p className="text-gray">
             Om een succesvolle website te creëren, hebben we de volgende content
             nodig:
             <ul className="list-disc pl-5 my-3">
@@ -109,7 +109,7 @@ export default function Projecten() {
               </li>
             </ul>
           </p>
-          <p className="italic mt-2">
+          <p className="italic mt-2 text-gray">
             Let op: de productie van de website kan pas beginnen als ik de
             content van je heb ontvangen.
           </p>

@@ -97,7 +97,7 @@ export default function Home() {
                 >
                   <div
                     className="px-4 py-3 -translate-y-2 -translate-x-0 transition-all bg-white rounded border-2 border-blue scale-[1.2] flex items-center
-                               group-hover:translate-y-0 group-hover:translate-x-2"
+                    group-hover:translate-y-0 group-hover:translate-x-2"
                   >
                     <span className="w-[110px]">Meer bekijken</span>
                     <div className="mb-1.5">

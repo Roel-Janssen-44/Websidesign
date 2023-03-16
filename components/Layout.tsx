@@ -36,10 +36,11 @@ export default function Layout({ children }: React.PropsWithChildren<{}>) {
         {children}
       </main>
       <div
-        className={`fixed z-40 transition-opacity bg-blue shadow-xl border-2 border-white rounded text-white w-12 h-12 bottom-8 right-8 
+        className={`fixed z-40 transition-opacity bg-blue shadow-xl border-2 border-white rounded-lg text-white w-12 h-12 bottom-8 right-8 
         ${scrollPosition > 10 ? "opacity-100" : "opacity-0"}`}
       >
         <button
+          aria-label="Scroll to top"
           onClick={() => window.scrollTo(0, 0)}
           className="w-full h-full flex justify-center items-center"
         >

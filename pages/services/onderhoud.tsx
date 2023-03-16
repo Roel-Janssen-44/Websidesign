@@ -56,7 +56,7 @@ export default function Projecten() {
           </div>
         </div>
         <div className="container my-20 lg:my-36">
-          <p className="max-w-2xl mx-auto w-full">
+          <p className="max-w-2xl mx-auto w-full text-gray">
             Een goed onderhouden website of webshop is van groot belang voor het
             behoud van bezoekers en inkomsten. Door regelmatig onderhoud te
             verrichten, voorkom je problemen die de gebruikerservaring negatief

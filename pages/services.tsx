@@ -62,7 +62,7 @@ export default function Services() {
             veranderende maatschappij om ons heen."
             img="/webshop-ontwikkelen.jpg"
             imgAlt="Kop koffie met een laptop ernaast"
-            link="/webshop-ontwikkelen"
+            link="/services/webshop-ontwikkelen"
             direction="right"
           />
           <ServiceCardWithImage
@@ -70,7 +70,7 @@ export default function Services() {
             paragraph="Zorgeloos je website laten onderhouden."
             img="/onderhoud.jpg"
             imgAlt="Laptop, muis en toetsenbord met een witte achtergrond"
-            link="/onderhoud"
+            link="/services/onderhoud"
             direction="left"
           />
         </div>

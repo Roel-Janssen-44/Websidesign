@@ -2,6 +2,7 @@ import React, { useRef, useState } from "react";
 
 // import "slick-carousel/slick/slick.css";
 // import "slick-carousel/slick/slick-theme.css";
+
 import Slider from "react-slick";
 
 import Chevron from "./icons/Chevron";
@@ -93,6 +94,7 @@ export default function SlideShow() {
           </div>
         </div>
       </Slider>
+
       <div className="w-10/12 mx-auto flex flex-row justify-around mt-8">
         <button
           aria-label="Vorige slide"
@@ -117,7 +119,7 @@ export default function SlideShow() {
         >
           <div
             className="px-4 py-3 pb-4 -translate-y-2 -translate-x-2 transition-all bg-white rounded border-2 border-blue scale-[1.2] flex
-                       group-hover:translate-y-0 group-hover:translate-x-0"
+            group-hover:translate-y-0 group-hover:translate-x-0"
           >
             <Chevron />
           </div>

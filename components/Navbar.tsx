@@ -147,19 +147,19 @@ export default function Navbar() {
                 Projecten
               </Link>
             </li>
-            {/* <li className="mx-0 xl:mx-2 my-1">
-                <Link
-                  href="/projecten"
-                  className={`relative py-2 px-8 text-blue before:bg-blue
+            <li className="mx-0 xl:mx-2 my-1">
+              <Link
+                href="/blogs"
+                className={`relative py-2 px-8 text-blue before:bg-blue
                   ${
                     router.pathname == "/blog"
                       ? "before:absolute before:-bottom-1 before:left-1/2 before:-translate-x-1/2 before:w-6 before:h-1"
                       : ""
                   } `}
-                >
-                  Blogs
-                </Link>
-              </li> */}
+              >
+                Blogs
+              </Link>
+            </li>
             <li className="mx-0 xl:mx-2 my-1 relative pl-8">
               <Button link="/contact" label="Contact" />
             </li>
