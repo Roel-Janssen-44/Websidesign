@@ -60,7 +60,9 @@ export default function Blog({ postData }: { postData: any }) {
           </div>
           {/* To do martin top -X */}
           <div className="relative overflow-hidden max-w-6xl mb-14 w-full h-auto lg:h-[500px] xl:h-[600px] mx-auto">
-            <img
+            <Image
+              width={1080}
+              height={1080}
               src={`/blogs/${postData.image}`}
               alt={postData.imageAlt}
               className="lg:absolute lg:left-1/2 lg:top-1/2 lg:-translate-y-1/2 lg:-translate-x-1/2 w-full h-auto"

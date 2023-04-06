@@ -99,8 +99,11 @@ export default function Projecten({ allPostsData }: { allPostsData: any }) {
                     className="relative flex flex-col group h-full"
                     href={`/blogs/${id}`}
                   >
-                    <img
-                      className=" rounded-md"
+                    <Image
+                      // fill
+                      width={1080}
+                      height={1080}
+                      // objectFit="contain"
                       src={`/blogs/${image}`}
                       alt={imageAlt}
                     />

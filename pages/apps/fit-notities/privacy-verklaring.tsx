@@ -15,44 +15,47 @@ export default function Services({}) {
             Privacybeleid - Fit Notities
           </h5>
           <p className="mb-3">
-            Dit privacybeleid beschrijft hoe de app "Fit Notities" uw
-            persoonlijke informatie behandelt. De app "Fit Notities" verzamelt
-            geen gebruikersgegevens en respecteert de privacy van de gebruikers.
+            Dit privacybeleid beschrijft hoe de app &quot;Fit Notities&quot; uw
+            persoonlijke informatie behandelt. De app &quot;Fit Notities&quot;
+            verzamelt geen gebruikersgegevens en respecteert de privacy van de
+            gebruikers.
           </p>
           <h5 className="text-blue text-xl font-inter font-bold mt-8 mb-3">
             Welke informatie wordt verzameld?
           </h5>
           <p>
-            De app "Fit Notities" verzamelt geen persoonlijke informatie van de
-            gebruikers. We slaan geen gegevens op die kunnen worden gebruikt om
-            u te identificeren, inclusief uw naam, e-mailadres, telefoonnummer,
-            locatie, apparaat-ID of enige andere informatie.
+            De app &quot;Fit Notities&quot; verzamelt geen persoonlijke
+            informatie van de gebruikers. We slaan geen gegevens op die kunnen
+            worden gebruikt om u te identificeren, inclusief uw naam,
+            e-mailadres, telefoonnummer, locatie, apparaat-ID of enige andere
+            informatie.
           </p>
           <h5 className="text-blue text-xl font-inter font-bold mt-8 mb-3">
             Hoe gebruiken we deze informatie?
           </h5>
           <p>
             Aangezien er geen informatie wordt verzameld, worden er ook geen
-            gegevens gebruikt. De app "Fit Notities" is volledig gratis en is
-            ontwikkeld om gebruikers te helpen bij het bijhouden van hun
-            fitnessdoelen. Er worden geen gegevens gebruikt om advertenties te
-            tonen of voor andere commerciële doeleinden.
+            gegevens gebruikt. De app &quot;Fit Notities&quot; is volledig
+            gratis en is ontwikkeld om gebruikers te helpen bij het bijhouden
+            van hun fitnessdoelen. Er worden geen gegevens gebruikt om
+            advertenties te tonen of voor andere commerciële doeleinden.
           </p>
           <h5 className="text-blue text-xl font-inter font-bold mt-8 mb-3">
             Worden er cookies gebruikt?
           </h5>
           <p>
-            De app "Fit Notities" maakt geen gebruik van cookies. Er worden geen
-            gegevens opgeslagen op uw apparaat wanneer u de app gebruikt.
+            De app &quot;Fit Notities&quot; maakt geen gebruik van cookies. Er
+            worden geen gegevens opgeslagen op uw apparaat wanneer u de app
+            gebruikt.
           </p>
           <h5 className="text-blue text-xl font-inter font-bold mt-8 mb-3">
             Beveiliging
           </h5>
           <p>
-            De app "Fit Notities" heeft passende technische en organisatorische
-            maatregelen getroffen om uw persoonlijke informatie te beschermen.
-            Omdat er geen gegevens worden verzameld, hoeft u zich geen zorgen te
-            maken over de veiligheid van uw gegevens.
+            De app &quot;Fit Notities&quot; heeft passende technische en
+            organisatorische maatregelen getroffen om uw persoonlijke informatie
+            te beschermen. Omdat er geen gegevens worden verzameld, hoeft u zich
+            geen zorgen te maken over de veiligheid van uw gegevens.
           </p>
           <h5 className="text-blue text-xl font-inter font-bold mt-8 mb-3">
             Contact
