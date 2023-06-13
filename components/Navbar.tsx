@@ -147,7 +147,7 @@ export default function Navbar() {
                 Projecten
               </Link>
             </li>
-            <li className="mx-0 xl:mx-2 my-1">
+            {/* <li className="mx-0 xl:mx-2 my-1">
               <Link
                 href="/blogs"
                 className={`relative py-2 px-8 text-blue before:bg-blue
@@ -159,7 +159,7 @@ export default function Navbar() {
               >
                 Blogs
               </Link>
-            </li>
+            </li> */}
             <li className="mx-0 xl:mx-2 my-1 relative pl-8">
               <Button link="/contact" label="Contact" />
             </li>
