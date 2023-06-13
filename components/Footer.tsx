@@ -61,7 +61,7 @@ export default function Footer() {
                   <li className="mb-4">
                     <Link
                       className="py-3 opacity-60 hover:opacity-100 transition-opacity"
-                      href="services"
+                      href="/services"
                     >
                       Services
                     </Link>
