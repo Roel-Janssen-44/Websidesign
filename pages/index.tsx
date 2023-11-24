@@ -244,19 +244,21 @@ export default function Home() {
                 />
               </a>
             </div>
-            {/* To do add MLSchreurs */}
-            {/* <div>
+            <div>
               <a
-                href="/projecten/fit_notities.tsx"
+                href="https://mlschreurs.nl/"
+                target="_blank"
+                rel="noreferrer"
+                title="Site mlschreurs.nl"
               >
                 <Image
-                  src="/gedenksieraad.png"
+                  src="/mlschreurs.webp"
                   width={1080}
                   height={1080}
-                  alt="Schermen van de app van Fit Notities"
+                  alt="Schermen van de site van mlschreurs.nl"
                 />
               </a>
-            </div> */}
+            </div>
           </div>
         </div>
       </Layout>
