@@ -4,13 +4,10 @@ export default function Document() {
   return (
     <Html lang="nl">
       <Head>
-        <meta
-          property="og:url"
-          content="https://www.websidesign.nl/og-image.png"
-        />
+        <meta property="og:url" content="https://www.websidesign.nl" />
         <meta
           property="og:image"
-          content="https://www.websidesign.nl/images/meta-tags.png"
+          content="https://www.websidesign.nl/og-image.png"
         />
 
         <meta property="og:type" content="website" />
