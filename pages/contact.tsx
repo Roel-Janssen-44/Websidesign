@@ -51,7 +51,7 @@ export default function Projecten() {
                   Contactgegevens
                 </h4>
                 <ul className="text-gray w-10/12 mx-auto sm:mx-0 md:mx-auto">
-                  <li className="mb-2 text-darkblue">+31 6 3 63 588 63</li>
+                  <li className="mb-2 text-darkblue">+31 6 363 588 63</li>
                   <li className="mb-2 text-darkblue">service@websidesign.nl</li>
                   <li className="mb-2 text-darkblue">www.websidesign.nl</li>
                 </ul>
