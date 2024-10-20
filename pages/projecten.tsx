@@ -43,16 +43,16 @@ export default function Projecten() {
           <div className="flex flex-wrap md:flex-row gap-4 justify-around">
             <div>
               <a
-                href="https://www.jewelsdesign.nl/pages/home/"
+                href="https://studiosufi.com/"
                 target="_blank"
                 rel="noreferrer"
-                title="Site Jewelsdesign"
+                title="Site studiosufi.com"
               >
                 <Image
-                  src="/jewelsdesign.png"
+                  src="/sufi.webp"
                   width={1080}
                   height={1080}
-                  alt="Schermen van de site van JewelsDesign"
+                  alt="Schermen van de site van studiosufi.com"
                 />
               </a>
             </div>
@@ -64,10 +64,55 @@ export default function Projecten() {
                 title="Site gedenk-sieraad.nl"
               >
                 <Image
-                  src="/gedenksieraad.png"
+                  src="/gedenk-sieraad.webp"
                   width={1080}
                   height={1080}
                   alt="Schermen van de site van gedenk-sieraad.nl"
+                />
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://www.jewelsdesign.nl/pages/home/"
+                target="_blank"
+                rel="noreferrer"
+                title="Site Jewelsdesign"
+              >
+                <Image
+                  src="/jewelsdesign.webp"
+                  width={1080}
+                  height={1080}
+                  alt="Schermen van de site van JewelsDesign"
+                />
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://youryinyang.nl/"
+                target="_blank"
+                rel="noreferrer"
+                title="Site youryinyang.nl"
+              >
+                <Image
+                  src="/youryinyang.webp"
+                  width={1080}
+                  height={1080}
+                  alt="Schermen van de site van youryinyang.nl"
+                />
+              </a>
+            </div>
+            <div>
+              <a
+                href="https://mlschreurs.nl/"
+                target="_blank"
+                rel="noreferrer"
+                title="Site mlschreurs.nl"
+              >
+                <Image
+                  src="/mlschreurs.webp"
+                  width={1080}
+                  height={1080}
+                  alt="Schermen van de site van mlschreurs.nl"
                 />
               </a>
             </div>
