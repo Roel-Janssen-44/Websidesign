@@ -61,8 +61,8 @@ export default function Projecten() {
                   Locatie
                 </h4>
                 <ul className="text-gray w-10/12 mx-auto sm:mx-0 md:mx-auto">
-                  <li className="mb-2 text-darkblue">Straatsburglaan 10</li>
-                  <li className="mb-2 text-darkblue">6137 JC Sittard-Geleen</li>
+                  <li className="mb-2 text-darkblue">Terhagen 7</li>
+                  <li className="mb-2 text-darkblue">6181HR ELSLOO LB</li>
                 </ul>
               </div>
               <div className="clear-both"></div>

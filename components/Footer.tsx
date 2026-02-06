@@ -35,8 +35,8 @@ export default function Footer() {
                   Contact
                 </h2>
                 <ul className="text-white opacity-60">
-                  <li className="mb-4">Straatsburglaan 10</li>
-                  <li className="mb-4">6137 JC Sittard-Geleen</li>
+                  <li className="mb-4">Terhagen 7</li>
+                  <li className="mb-4">6181HR ELSLOO LB</li>
                   <li className="mb-4">+31 6 363 588 63</li>
                   <li className="mb-4">service@websidesign.nl</li>
                 </ul>

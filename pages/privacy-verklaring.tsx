@@ -17,8 +17,8 @@ export default function Services({}) {
           <p>
             <ul>
               <li className="mb-2">www.websidesign.nl</li>
-              <li className="mb-2">Straatsburglaan 10</li>
-              <li className="mb-2">6137 JC Sittard</li>
+              <li className="mb-2">Terhagen 7</li>
+              <li className="mb-2">6181HR ELSLOO LB</li>
               <li className="mb-2">tel: 06 36 35 88 63</li>
               <li className="mb-2">
                 Roel Janssen is de Functionaris Gegevensbescherming van
