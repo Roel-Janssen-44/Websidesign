@@ -62,7 +62,7 @@ export default function Projecten() {
                 </h4>
                 <ul className="text-gray w-10/12 mx-auto sm:mx-0 md:mx-auto">
                   <li className="mb-2 text-darkblue">Terhagen 7</li>
-                  <li className="mb-2 text-darkblue">6181HR ELSLOO LB</li>
+                  <li className="mb-2 text-darkblue">6181HR ELSLOO</li>
                 </ul>
               </div>
               <div className="clear-both"></div>
